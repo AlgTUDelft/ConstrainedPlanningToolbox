@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
 <ipe version="70107" creator="Ipe 7.1.10">
-<info created="D:20181112152247" modified="D:20181112152247"/>
+<info created="D:20181112152247" modified="D:20181112152434"/>
 <ipestyle name="basic">
 <symbol name="arrow/arc(spx)">
 <path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
@@ -293,7 +293,7 @@ h
 400 736 m
 432 736 l
 </path>
-<text matrix="1 0 0 1 -26.3793 -2.23718" transformations="translations" pos="464 736" stroke="black" type="label" width="81.03" height="6.926" depth="1.93" valign="baseline">\sffamily performance results</text>
+<text matrix="1 0 0 1 -26.3793 -2.23718" transformations="translations" pos="464 736" stroke="black" type="label" width="90.66" height="6.926" depth="1.93" valign="baseline">\sffamily performance statistics</text>
 <text matrix="1 0 0 1 -67.4693 49.9217" transformations="translations" pos="139.906 683.421" stroke="black" type="label" width="18.929" height="5.693" depth="0" valign="baseline">\sffamily start</text>
 <text matrix="1 0 0 1 -31.058 -68.55" transformations="translations" pos="170.787 801.951" stroke="black" type="label" width="27.01" height="6.926" depth="1.93" valign="baseline">\sffamily Step 1</text>
 <text matrix="1 0 0 1 80.1126 -68.4514" transformations="translations" pos="170.787 801.951" stroke="black" type="label" width="27.01" height="6.926" depth="1.93" valign="baseline">\sffamily Step 2</text>
