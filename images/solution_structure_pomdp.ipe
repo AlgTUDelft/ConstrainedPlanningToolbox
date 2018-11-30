@@ -1,0 +1,372 @@
+<?xml version="1.0"?>
+<!DOCTYPE ipe SYSTEM "ipe.dtd">
+<ipe version="70107" creator="Ipe 7.1.10">
+<info created="D:20181130134119" modified="D:20181130162808"/>
+<ipestyle name="basic">
+<symbol name="arrow/arc(spx)">
+<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/farc(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/ptarc(spx)">
+<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-0.8 0 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/fptarc(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-0.8 0 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="mark/circle(sx)" transformations="translations">
+<path fill="sym-stroke">
+0.6 0 0 0.6 0 0 e
+0.4 0 0 0.4 0 0 e
+</path>
+</symbol>
+<symbol name="mark/disk(sx)" transformations="translations">
+<path fill="sym-stroke">
+0.6 0 0 0.6 0 0 e
+</path>
+</symbol>
+<symbol name="mark/fdisk(sfx)" transformations="translations">
+<group>
+<path fill="sym-fill">
+0.5 0 0 0.5 0 0 e
+</path>
+<path fill="sym-stroke" fillrule="eofill">
+0.6 0 0 0.6 0 0 e
+0.4 0 0 0.4 0 0 e
+</path>
+</group>
+</symbol>
+<symbol name="mark/box(sx)" transformations="translations">
+<path fill="sym-stroke" fillrule="eofill">
+-0.6 -0.6 m
+0.6 -0.6 l
+0.6 0.6 l
+-0.6 0.6 l
+h
+-0.4 -0.4 m
+0.4 -0.4 l
+0.4 0.4 l
+-0.4 0.4 l
+h
+</path>
+</symbol>
+<symbol name="mark/square(sx)" transformations="translations">
+<path fill="sym-stroke">
+-0.6 -0.6 m
+0.6 -0.6 l
+0.6 0.6 l
+-0.6 0.6 l
+h
+</path>
+</symbol>
+<symbol name="mark/fsquare(sfx)" transformations="translations">
+<group>
+<path fill="sym-fill">
+-0.5 -0.5 m
+0.5 -0.5 l
+0.5 0.5 l
+-0.5 0.5 l
+h
+</path>
+<path fill="sym-stroke" fillrule="eofill">
+-0.6 -0.6 m
+0.6 -0.6 l
+0.6 0.6 l
+-0.6 0.6 l
+h
+-0.4 -0.4 m
+0.4 -0.4 l
+0.4 0.4 l
+-0.4 0.4 l
+h
+</path>
+</group>
+</symbol>
+<symbol name="mark/cross(sx)" transformations="translations">
+<group>
+<path fill="sym-stroke">
+-0.43 -0.57 m
+0.57 0.43 l
+0.43 0.57 l
+-0.57 -0.43 l
+h
+</path>
+<path fill="sym-stroke">
+-0.43 0.57 m
+0.57 -0.43 l
+0.43 -0.57 l
+-0.57 0.43 l
+h
+</path>
+</group>
+</symbol>
+<symbol name="arrow/fnormal(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/pointed(spx)">
+<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-0.8 0 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/fpointed(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-0.8 0 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/linear(spx)">
+<path stroke="sym-stroke" pen="sym-pen">
+-1 0.333 m
+0 0 l
+-1 -0.333 l
+</path>
+</symbol>
+<symbol name="arrow/fdouble(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+-1 0 m
+-2 0.333 l
+-2 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/double(spx)">
+<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+-1 0 m
+-2 0.333 l
+-2 -0.333 l
+h
+</path>
+</symbol>
+<pen name="heavier" value="0.8"/>
+<pen name="fat" value="1.2"/>
+<pen name="ultrafat" value="2"/>
+<symbolsize name="large" value="5"/>
+<symbolsize name="small" value="2"/>
+<symbolsize name="tiny" value="1.1"/>
+<arrowsize name="large" value="10"/>
+<arrowsize name="small" value="5"/>
+<arrowsize name="tiny" value="3"/>
+<color name="red" value="1 0 0"/>
+<color name="green" value="0 1 0"/>
+<color name="blue" value="0 0 1"/>
+<color name="yellow" value="1 1 0"/>
+<color name="orange" value="1 0.647 0"/>
+<color name="gold" value="1 0.843 0"/>
+<color name="purple" value="0.627 0.125 0.941"/>
+<color name="gray" value="0.745"/>
+<color name="brown" value="0.647 0.165 0.165"/>
+<color name="navy" value="0 0 0.502"/>
+<color name="pink" value="1 0.753 0.796"/>
+<color name="seagreen" value="0.18 0.545 0.341"/>
+<color name="turquoise" value="0.251 0.878 0.816"/>
+<color name="violet" value="0.933 0.51 0.933"/>
+<color name="darkblue" value="0 0 0.545"/>
+<color name="darkcyan" value="0 0.545 0.545"/>
+<color name="darkgray" value="0.663"/>
+<color name="darkgreen" value="0 0.392 0"/>
+<color name="darkmagenta" value="0.545 0 0.545"/>
+<color name="darkorange" value="1 0.549 0"/>
+<color name="darkred" value="0.545 0 0"/>
+<color name="lightblue" value="0.678 0.847 0.902"/>
+<color name="lightcyan" value="0.878 1 1"/>
+<color name="lightgray" value="0.827"/>
+<color name="lightgreen" value="0.565 0.933 0.565"/>
+<color name="lightyellow" value="1 1 0.878"/>
+<dashstyle name="dashed" value="[4] 0"/>
+<dashstyle name="dotted" value="[1 3] 0"/>
+<dashstyle name="dash dotted" value="[4 2 1 2] 0"/>
+<dashstyle name="dash dot dotted" value="[4 2 1 2 1 2] 0"/>
+<textsize name="large" value="\large"/>
+<textsize name="Large" value="\Large"/>
+<textsize name="LARGE" value="\LARGE"/>
+<textsize name="huge" value="\huge"/>
+<textsize name="Huge" value="\Huge"/>
+<textsize name="small" value="\small"/>
+<textsize name="footnote" value="\footnotesize"/>
+<textsize name="tiny" value="\tiny"/>
+<textstyle name="center" begin="\begin{center}" end="\end{center}"/>
+<textstyle name="itemize" begin="\begin{itemize}" end="\end{itemize}"/>
+<textstyle name="item" begin="\begin{itemize}\item{}" end="\end{itemize}"/>
+<gridsize name="4 pts" value="4"/>
+<gridsize name="8 pts (~3 mm)" value="8"/>
+<gridsize name="16 pts (~6 mm)" value="16"/>
+<gridsize name="32 pts (~12 mm)" value="32"/>
+<gridsize name="10 pts (~3.5 mm)" value="10"/>
+<gridsize name="20 pts (~7 mm)" value="20"/>
+<gridsize name="14 pts (~5 mm)" value="14"/>
+<gridsize name="28 pts (~10 mm)" value="28"/>
+<gridsize name="56 pts (~20 mm)" value="56"/>
+<anglesize name="90 deg" value="90"/>
+<anglesize name="60 deg" value="60"/>
+<anglesize name="45 deg" value="45"/>
+<anglesize name="30 deg" value="30"/>
+<anglesize name="22.5 deg" value="22.5"/>
+<opacity name="10%" value="0.1"/>
+<opacity name="30%" value="0.3"/>
+<opacity name="50%" value="0.5"/>
+<opacity name="75%" value="0.75"/>
+<tiling name="falling" angle="-60" step="4" width="1"/>
+<tiling name="rising" angle="30" step="4" width="1"/>
+</ipestyle>
+<page>
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<text layer="alpha" matrix="1 0 0 1 -13.8862 -3.63811" transformations="translations" pos="144 768" stroke="black" type="label" width="76.491" height="6.918" depth="0" valign="baseline">\sffamily CPOMDPSolution</text>
+<path matrix="1.5 0 0 1 -71.9591 -0.0543202" stroke="black">
+128 784 m
+128 752 l
+192 752 l
+192 784 l
+h
+</path>
+<text matrix="1 0 0 1 -49.1817 -8.96903" transformations="translations" pos="153.159 726.327" stroke="black" type="label" width="126.166" height="6.926" depth="1.93" valign="baseline">\sffamily CPOMDPSolutionPolicyBased</text>
+<path matrix="1.13378 0 0 1 -13.5169 15.8473" stroke="black">
+96 720 m
+96 688 l
+224 688 l
+224 720 l
+h
+</path>
+<path stroke="black" arrow="normal/normal">
+168.015 735.863 m
+168.062 751.879 l
+</path>
+<text matrix="1 0 0 1 -78.4111 4.44916" transformations="translations" pos="173.957 664.155" stroke="black" type="label" width="143.767" height="6.926" depth="1.93" valign="baseline">\sffamily POMDPAgentSolutionPolicyBased</text>
+<path matrix="1.11111 0 0 1 -19.4955 -0.0143259" stroke="black">
+96 688 m
+96 656 l
+240 656 l
+240 688 l
+h
+</path>
+<path stroke="black">
+167.962 703.774 m
+167.962 688.101 l
+</path>
+<text matrix="1 0 0 1 -2.5074 -1.2964" transformations="translations" pos="172.655 700.109" stroke="black" type="label" width="2.646" height="3.269" depth="0" valign="baseline">\tiny\sffamily 1</text>
+<text matrix="1 0 0 1 -9.71355 -2.08486" transformations="translations" pos="179.838 692.048" stroke="black" type="label" width="2.733" height="2.214" depth="0" valign="baseline">\tiny\sffamily n</text>
+<text matrix="1 0 0 1 -61.2217 -24.691" transformations="translations" pos="151.708 630.004" stroke="black" type="label" width="74.388" height="6.926" depth="1.93" valign="baseline">\sffamily POMDPPolicySet</text>
+<path matrix="1.2 0 0 1 -35.2 -16" stroke="black">
+96 640 m
+96 608 l
+176 608 l
+176 640 l
+h
+</path>
+<path stroke="black" arrow="normal/normal">
+135.737 624.08 m
+135.799 655.865 l
+</path>
+<text matrix="1 0 0 1 -53.6981 -6.50942" transformations="translations" pos="256.511 611.778" stroke="black" type="label" width="60.828" height="6.926" depth="1.93" valign="baseline">\sffamily POMDPPolicy</text>
+<path matrix="1.25 0 0 1 -68 0" stroke="black">
+208 624 m
+208 592 l
+272 592 l
+272 624 l
+h
+</path>
+<path matrix="0.497645 0 0 1 88.4898 0" stroke="black">
+176.15 607.912 m
+207.944 607.959 l
+</path>
+<text matrix="1 0 0 1 -22.4217 -28.9511" transformations="translations" pos="200.906 639.05" stroke="black" type="label" width="2.646" height="3.269" depth="0" valign="baseline">\tiny\sffamily 1</text>
+<text matrix="1 0 0 1 -14.3168 -22.5727" transformations="translations" pos="201.459 631.628" stroke="black" type="label" width="2.646" height="3.736" depth="0" valign="baseline">\tiny\sffamily *</text>
+<text matrix="1 0 0 1 -48.4218 -10.258" transformations="translations" pos="361.881 673.307" stroke="black" type="label" width="78.401" height="6.926" depth="1.93" valign="baseline">\sffamily POMDPPolicyFSC</text>
+<path matrix="0.75 0 0 1 40.2072 -6.31015" stroke="black">
+352 656 m
+352 688 l
+480 688 l
+480 656 l
+h
+</path>
+<text matrix="1 0 0 1 -52.6572 -58.4273" transformations="translations" pos="361.881 673.307" stroke="black" type="label" width="85.956" height="6.926" depth="1.93" valign="baseline">\sffamily POMDPPolicyGraph</text>
+<path matrix="0.75 0 0 1 40.2072 -54.3101" stroke="black">
+352 656 m
+352 688 l
+480 688 l
+480 656 l
+h
+</path>
+<path stroke="black" dash="dashed">
+216.105 767.639 m
+300.91 744.616 l
+</path>
+<text matrix="1 0 0 1 -21.4537 6.3627" transformations="translations" pos="323.285 739.889" stroke="black" type="label" width="86.426" height="6.918" depth="0" valign="baseline">\sffamily Provides the method</text>
+<text matrix="1 0 0 1 -64.1549 37.975" transformations="translations" pos="365.99 699.304" stroke="black" type="label" width="106.296" height="7.473" depth="2.49" valign="baseline">\sffamily getActions(t, joint belief)</text>
+<text matrix="1 0 0 1 -53.6833 -106.719" transformations="translations" pos="361.881 673.307" stroke="black" type="label" width="87.754" height="6.926" depth="1.93" valign="baseline">\sffamily POMDPPolicyVector</text>
+<path matrix="0.75 0 0 1 40.2072 -102.31" stroke="black">
+352 656 m
+352 688 l
+480 688 l
+480 656 l
+h
+</path>
+<path stroke="black" arrow="normal/normal">
+304.192 583.963 m
+247.307 671.193 l
+</path>
+<path stroke="black" arrow="normal/normal">
+304.147 578.59 m
+272.007 608.275 l
+</path>
+<path matrix="1 0 0 1.61609 0 -410.344" stroke="black" arrow="normal/normal">
+304.235 666.049 m
+247.212 675.965 l
+</path>
+<path stroke="black" arrow="normal/normal">
+304.194 660.515 m
+272.058 615.029 l
+</path>
+<path matrix="0.999999 0 0 1.06846 0.0002064 -42.5686" stroke="black" arrow="normal/normal">
+304.097 621.822 m
+247.251 673.712 l
+</path>
+<path stroke="black" arrow="normal/normal">
+304.23 613.878 m
+272.071 611.818 l
+</path>
+</page>
+</ipe>
