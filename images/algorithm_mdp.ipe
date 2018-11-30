@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
 <ipe version="70107" creator="Ipe 7.1.10">
-<info created="D:20181109105131" modified="D:20181109105131"/>
+<info created="D:20181109105131" modified="D:20181130114335"/>
 <ipestyle name="basic">
 <symbol name="arrow/arc(spx)">
 <path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
@@ -254,8 +254,8 @@ h
 <page>
 <layer name="alpha"/>
 <view layers="alpha" active="alpha"/>
-<text layer="alpha" matrix="1 0 0 1 -6.68535 -2.99082" transformations="translations" pos="160 736" stroke="black" type="label" width="124.575" height="6.926" depth="1.93" valign="baseline">\sffamily CMDPAlgorithmFiniteHorizon</text>
-<path stroke="black">
+<text layer="alpha" matrix="1 0 0 1 21.5225 -2.67209" transformations="translations" pos="160 736" stroke="black" type="label" width="68.964" height="6.926" depth="1.93" valign="baseline">\sffamily CMDPAlgorithm</text>
+<path matrix="0.555556 0 0 1 96 0" stroke="black">
 144 752 m
 144 720 l
 288 720 l
@@ -270,8 +270,8 @@ h
 256 816 l
 h
 </path>
-<text matrix="1 0 0 1 -29.9609 -15.0948" transformations="translations" pos="203.041 683.979" stroke="black" type="label" width="85.79" height="7.473" depth="2.49" valign="baseline">\sffamily MDPSolutionFinite[]</text>
-<path stroke="black">
+<text matrix="1 0 0 1 -17.7389 -15.1673" transformations="translations" pos="203.041 683.979" stroke="black" type="label" width="62.792" height="6.918" depth="0" valign="baseline">\sffamily CMDPSolution</text>
+<path matrix="0.714286 0 0 1 61.7143 0" stroke="black">
 160 688 m
 160 656 l
 272 656 l
