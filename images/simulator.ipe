@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
 <ipe version="70107" creator="Ipe 7.1.10">
-<info created="D:20181109105131" modified="D:20181112103840"/>
+<info created="D:20181109105131" modified="D:20181130115938"/>
 <ipestyle name="basic">
 <symbol name="arrow/arc(spx)">
 <path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
@@ -254,8 +254,8 @@ h
 <page>
 <layer name="alpha"/>
 <view layers="alpha" active="alpha"/>
-<text layer="alpha" matrix="1 0 0 1 -8.84703 -3.40439" transformations="translations" pos="160 736" stroke="black" type="label" width="145.552" height="7.473" depth="2.49" valign="baseline">\sffamily C(PO)MDPSimulatorFiniteHorizon</text>
-<path matrix="1.11111 0 0 1 -16 0" stroke="black">
+<text layer="alpha" matrix="1 0 0 1 20.1576 -2.92629" transformations="translations" pos="160 736" stroke="black" type="label" width="89.941" height="7.473" depth="2.49" valign="baseline">\sffamily C(PO)MDPSimulator</text>
+<path matrix="0.888888 0 0 1 32 0" stroke="black">
 144 752 m
 144 720 l
 288 720 l
@@ -270,7 +270,7 @@ h
 256 816 l
 h
 </path>
-<path matrix="1 0 0 1 -47.9279 0.0327624" stroke="black" arrow="normal/normal">
+<path matrix="1 0 0 1 -31.9932 0.156036" stroke="black" arrow="normal/normal">
 208 784 m
 208 752 l
 </path>
@@ -279,15 +279,15 @@ h
 208 688 l
 </path>
 <text matrix="1 0 0 1 -54.1763 -25.6016" transformations="translations" pos="241.852 703.353" stroke="black" type="label" width="72.451" height="6.918" depth="0" valign="baseline">\sffamily simulation results</text>
-<text matrix="1 0 0 1 52.012 5.6095" transformations="translations" pos="198.686 791.358" stroke="black" type="label" width="107.237" height="7.473" depth="2.49" valign="baseline">\sffamily (PO)MDPSolutionFinite[]</text>
-<path matrix="1.60058 0 0 1 -41.5632 0.00199975" stroke="black">
+<text matrix="1 0 0 1 47.8685 5.76887" transformations="translations" pos="198.686 791.358" stroke="black" type="label" width="84.24" height="7.473" depth="2.49" valign="baseline">\sffamily C(PO)MDPSolution</text>
+<path matrix="1.2 0 0 1 28.9388 0.00199975" stroke="black">
 176 816 m
 176 784 l
 256 784 l
 256 816 l
 h
 </path>
-<path matrix="1 0 0 1 80.1426 0.0556117" stroke="black" arrow="normal/normal">
+<path matrix="1 0 0 1 64.0217 0.0746176" stroke="black" arrow="normal/normal">
 208 784 m
 208 752 l
 </path>
