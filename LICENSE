@@ -1,28 +1,24 @@
 ConstrainedPlanningToolbox is released under the GNU General Public License version 3. Below we provide an overview of the software that is included in ConstrainedPlanningToolbox, and their respective license. The full license text can be found at the bottom of this file.
 
 
-==== Included software ====
-* The .POMDP file parser from libpomdp (https://github.com/dmaniloff/libpomdp), which is licensed under the GNU Lesser General Public License v3. License information: https://github.com/dmaniloff/libpomdp/blob/master/COPYING.LESSER.
 
-* ANLTR, which is licensed under the ANTLR 4 License:
+==== Included source code and library dependencies ====
 
-----------------------------------------------------
-ANTLR 4 License - http://www.antlr.org/license.html
+* The Apache Commons math library, which is licensed under the Apache License Version 2.0. License information: http://www.apache.org/licenses/
 
-[The BSD License]
-Copyright (c) 2012 Terence Parr and Sam Harwell
-All rights reserved.
+* LPSolve, which is licensed under the GNU Lesser General Public License version 2.1. License information: http://lpsolve.sourceforge.net/5.5/LGPL.htm
 
-Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+* Gurobi: the toolbox relies on this library if this LP solver is used, but the corresponding jar file has not been included in the toolbox.
 
-- Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
-- Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
-- Neither the name of the author nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+* Matrix Toolkits For Java, which is licensed under the GNU Lesser General Public License. More information: https://mvnrepository.com/artifact/com.googlecode.matrix-toolkits-java/mtj. License information: https://www.gnu.org/licenses/lgpl.html.
 
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-----------------------------------------------------
+* StringTemplate, which is licensed under the BSD license. License information: https://www.stringtemplate.org/license.html
 
+* ANTLR, which is licensed under the BSD license. License information: https://www.antlr.org/license.html
 
+* Netlib Java, which is licensed under the BSD license. More information: https://mvnrepository.com/artifact/com.googlecode.netlib-java/netlib-java/0.9.3
+
+* Fortran to Java ARPACK, which is licensed under the BSD license. More information: https://mvnrepository.com/artifact/net.sourceforge.f2j/arpack_combined_all/0.1
 
 
 
