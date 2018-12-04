@@ -20,6 +20,8 @@ ConstrainedPlanningToolbox is released under the GNU General Public License vers
 
 * Fortran to Java ARPACK, which is licensed under the BSD license. More information: https://mvnrepository.com/artifact/net.sourceforge.f2j/arpack_combined_all/0.1
 
+* The .POMDP file parser from libpomdp (https://github.com/dmaniloff/libpomdp), which is licensed under the GNU Lesser General Public License v3. License information: https://github.com/dmaniloff/libpomdp/blob/master/COPYING.LESSER.
+
 
 
 ==== License text ====
