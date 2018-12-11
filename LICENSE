@@ -4,23 +4,35 @@ ConstrainedPlanningToolbox is released under the GNU General Public License vers
 
 ==== Included source code and library dependencies ====
 
-* The Apache Commons math library, which is licensed under the Apache License Version 2.0. License information: http://www.apache.org/licenses/
+* The Apache Commons math library, which is licensed under the Apache License Version 2.0: http://www.apache.org/licenses/
 
-* LPSolve, which is licensed under the GNU Lesser General Public License version 2.1. License information: http://lpsolve.sourceforge.net/5.5/LGPL.htm
+* LPSolve, which is licensed under the GNU Lesser General Public License version 2.1: http://lpsolve.sourceforge.net/5.5/LGPL.htm
 
 * Gurobi: the toolbox relies on this library if this LP solver is used, but the corresponding jar file has not been included in the toolbox.
 
 * Matrix Toolkits For Java, which is licensed under the GNU Lesser General Public License. More information: https://mvnrepository.com/artifact/com.googlecode.matrix-toolkits-java/mtj. License information: https://www.gnu.org/licenses/lgpl.html.
 
-* StringTemplate, which is licensed under the BSD license. License information: https://www.stringtemplate.org/license.html
+* StringTemplate, which is licensed under the BSD license: https://www.stringtemplate.org/license.html
 
-* ANTLR, which is licensed under the BSD license. License information: https://www.antlr.org/license.html
+* ANTLR, which is licensed under the BSD license: https://www.antlr.org/license.html
 
-* Netlib Java, which is licensed under the BSD license. More information: https://mvnrepository.com/artifact/com.googlecode.netlib-java/netlib-java/0.9.3
+* Netlib Java, which is licensed under the BSD license: https://mvnrepository.com/artifact/com.googlecode.netlib-java/netlib-java/0.9.3
 
-* Fortran to Java ARPACK, which is licensed under the BSD license. More information: https://mvnrepository.com/artifact/net.sourceforge.f2j/arpack_combined_all/0.1
+* Fortran to Java ARPACK, which is licensed under the BSD license: https://mvnrepository.com/artifact/net.sourceforge.f2j/arpack_combined_all/0.1
 
-* The .POMDP file parser from libpomdp (https://github.com/dmaniloff/libpomdp), which is licensed under the GNU Lesser General Public License v3. License information: https://github.com/dmaniloff/libpomdp/blob/master/COPYING.LESSER.
+* Stringtemplate, which is licensed under the BSD license: https://www.stringtemplate.org/license.html
+
+* jaxb-istack-commons, which is licensed under the CDDL license: https://javaee.github.io/jaxb-istack-commons/LICENSE
+
+* FastInfoSet, which is licensed under the Apache 2.0 license: https://www.apache.org/licenses/LICENSE-2.0
+
+* metro-stax-ex, which is licensed under the CDDL license: https://javaee.github.io/metro-stax-ex/LICENSE
+
+* txw2, which is licensed under the CDDL license.
+
+* javax.activation, which is licensed under the CDDL license
+
+* The .POMDP file parser from libpomdp (https://github.com/dmaniloff/libpomdp), which is licensed under the GNU Lesser General Public License v3: https://github.com/dmaniloff/libpomdp/blob/master/COPYING.LESSER.
 
 
 
