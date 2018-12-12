@@ -1,0 +1,2 @@
+class SolveException(Exception):
+    pass

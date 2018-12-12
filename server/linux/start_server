@@ -1,0 +1,5 @@
+#!/bin/bash
+CURRENTDIR=`pwd`
+export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:$CURRENTDIR/lpsolve_64"
+java -cp Server.jar:libs/* executables.Server $1 $2 $3 $4
+

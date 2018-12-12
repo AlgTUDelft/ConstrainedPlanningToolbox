@@ -1,0 +1,31 @@
+You can use the guide below to build LPSolve from source on Mac OS X. The guide has been verified to work correctly, but please use at your own risk.
+
+1. We assume that lpsolve_src is your current working directory.
+
+2. Execute: cd lp_solve_5.5/lpsolve55
+
+3. Execute: sh ccc.osx
+
+4. Two files have been created, which can be checked using: ls bin/osx64/liblp*. It should show bin/osx64/liblpsolve55.a and bin/osx64/liblpsolve55.dylib.
+
+5. Copy the newly created files to the /usr/local/lib directory: sudo cp bin/osx64/liblpsolve55.a bin/osx64/liblpsolve55.dylib /usr/local/lib.
+
+6. Now change your working directory to the java API using: cd ../../lp_solve_5.5_java
+
+7. Go to the library directory for Mac: cd lib/mac
+
+8. Execute: tr -d "\r" < build-osx > build-osxl
+
+9. Open build-osxl in a text editor and modify LPSOLVE_DIR such that it points to the lpsolve_src/lp_solve_5.5 directory (use the full path).
+
+10. Execute: sh build-osxl
+
+11. Create the java extensions directory if necessary: mkdir -p ~/Library/Java/Extensions
+
+12. Copy the newly created jnilib file to the extensions directory: cp liblpsolve55j.jnilib ~/Library/Java/Extensions
+
+Done!
+
+
+
+The original guide comes from: https://diegoresearch.wordpress.com/2008/07/10/using-lp_solve-in-java-with-mac-os-x/

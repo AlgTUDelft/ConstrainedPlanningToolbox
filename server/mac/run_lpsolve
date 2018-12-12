@@ -1,0 +1,3 @@
+#!/bin/bash
+CURRENTDIR=`pwd`
+java -Djava.library.path=$CURRENTDIR/lpsolve -cp Server.jar:libs/* executables.Server $1 $2 $3 $4

@@ -1,0 +1,42 @@
+# Column generation - tolerance that is used to determine whether column generation can terminate
+colgen_dual_convergence_tolerance=0.0001
+
+# Column generation - limit on runtime
+colgen_time_limit = 3600
+
+# Dynamic relaxation - tolerance to decide whether constraint relaxation can stop
+dynamicrelaxation_convergence_tolerance=0.0001
+
+# Dynamic relaxation - limit on runtime
+dynamicrelaxation_time_limit = 3600
+
+# CALP - maximum number of beliefs added in an iteration
+calp_num_beliefs=10
+
+# CALP - maximum number of iterations
+calp_max_iter=1000
+
+# CALP - tolerance used in belief search to discard trajectories that are reachable with probability lower than threshold
+calp_belief_search_tolerance=0.00001
+
+# CALP - limit on runtime
+calp_time_limit = 3600
+
+# CGCP - tolerance that is used to determine whether column generation can terminate
+cgcp_convergence_tolerance=0.0001
+cgcp_time_limit_subproblem_solver=60
+
+# CGCP - use runtime increase feature of the subproblem solver
+cgcp_use_runtime_increase=false
+
+# CGCP - amount of time by which runtime limit of subproblem solver is increased
+cgcp_runtime_increase=5
+
+# CGCP - after a runtime limit increase of the subproblem solver, at least this number of iterations need to have an objective increase before increasing the limit again
+cgcp_minimum_increase_rounds=2
+
+# CGCP - limit on runtime
+cgcp_time_limit = 3600
+
+# Path to the Gurobi jar file
+gurobi_jar_file=lib/gurobi.jar

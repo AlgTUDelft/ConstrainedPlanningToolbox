@@ -1,0 +1,17 @@
+Run with Gurobi:
+0. Move Server.jar to this directory
+1. Install Gurobi using the official Gurobi documentation
+2. Locate gurobi.jar in the lib folder of your Gurobi installation
+3. Copy gurobi.jar to the libs directory
+5. Execute the start server script. Example: run 8080 gurobi true /path/to/python/client. For 32 bits java versions the run_x86 script can be used.
+
+
+Run with LPSolve:
+0. Move Server.jar to this directory
+1. Execute the start server script. Example: run 8080 lpsolve true /path/to/python/client. For 32 bits java versions the run_x86 script can be used.
+
+
+Run with built-in simplex:
+0. Move Server.jar to this directory
+1. Execute the start server script. Example: run 8080 simplex true /path/to/python/client. For 32 bits java versions the run_x86 script can be used.
+

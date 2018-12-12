@@ -1,0 +1,3 @@
+#!/bin/bash
+CURRENTDIR=`pwd`
+java -cp Server.jar:libs/* executables.Server $1 $2 $3 $4
